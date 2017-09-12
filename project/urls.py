@@ -10,6 +10,6 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^$', IndexView.as_view()),
-    # url(r'^health$', health),
+    url(r'^health$', health),
     # url(r'^admin/', include(admin.site.urls)),
 ]
